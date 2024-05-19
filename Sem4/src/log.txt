@@ -1,0 +1,14 @@
+se.kth.iv1350.integration.DatabaseFailureException: DatabaseFailure. Caused by item: 666
+	at se.kth.iv1350.integration.ItemRegistry.getItem(ItemRegistry.java:25)
+	at se.kth.iv1350.controller.Controller.scanItem(Controller.java:63)
+	at se.kth.iv1350.view.View.loopThroughInput(View.java:115)
+	at se.kth.iv1350.view.View.sampleExcecution(View.java:95)
+	at se.kth.iv1350.startup.Main.main(Main.java:35)
+     This occurred at: 2024-05-19T23:58:34.479561600
+se.kth.iv1350.integration.DatabaseFailureException: DatabaseFailure. Caused by item: 666
+	at se.kth.iv1350.integration.ItemRegistry.getItem(ItemRegistry.java:24)
+	at se.kth.iv1350.controller.Controller.scanItem(Controller.java:62)
+	at se.kth.iv1350.view.View.loopThroughInput(View.java:114)
+	at se.kth.iv1350.view.View.sampleExcecution(View.java:94)
+	at se.kth.iv1350.startup.Main.main(Main.java:34)
+     This occurred at: 2024-05-20T00:04:36.222678400
